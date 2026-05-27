@@ -1,0 +1,37 @@
+{
+  "name": "nearley-moo-math-equation-parser",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "generate:parser": "nearleyc src/parser/math.ne -o src/parser/generated/mathParser.cjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "moo": "^0.5.2",
+    "nearley": "^2.20.1",
+    "vite": "^7.1.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/moo": "^0.5.10",
+    "@types/nearley": "^2.11.5",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "typescript-eslint": "^8.44.1",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
