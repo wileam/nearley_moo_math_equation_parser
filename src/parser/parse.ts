@@ -1,5 +1,5 @@
 import nearley from 'nearley';
-import grammar from './generated/mathParser.cjs';
+import grammar from './generated/mathParser';
 import { evaluateExpression } from './evaluate';
 import type { ExpressionNode, ParseErrorDetails, ParseResult } from './types';
 
