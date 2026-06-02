@@ -4,6 +4,10 @@ A small React + TypeScript demo app that parses arithmetic and comparison expres
 [Nearley](https://nearley.js.org/) and [Moo](https://github.com/no-context/moo), displays the AST,
 and evaluates comparison statements to `true` or `false`.
 
+## Demo
+
+View the live demo: https://nearley-moo-math-equation-parser.vercel.app/
+
 ## Supported Syntax
 
 - Arithmetic operators: `+`, `-`, `*`, `/`
